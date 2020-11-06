@@ -93,7 +93,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     # Initialize logging
-    logging.basicConfig(level=logging.INFO, filename='logfile.txt')
+    logging.basicConfig(level=logging.INFO, filename='logfile.txt', mode='w')
     #logging.disable('logging.DEBUG')
     logging.info('------ Running app ------')
 
