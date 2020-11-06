@@ -1,0 +1,4 @@
+home_ownership
+verification_status
+purpose
+addr_state

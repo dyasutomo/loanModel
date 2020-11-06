@@ -1,0 +1,250 @@
+INFO:root:------ Running app ------
+INFO:root:------ Running app ------
+INFO:root:------ Running app ------
+INFO:root:Succesfully read ../data/accepted_2007_to_2018Q4.csv
+INFO:root:Dimension of raw data is 2260701 x 151
+INFO:root:--> Preprocessing Data
+INFO:root:------ Running app ------
+INFO:root:Succesfully read ../data/accepted_2007_to_2018Q4.csv
+INFO:root:Dimension of raw data is 2260701 x 151
+INFO:root:--> Preprocessing Data
+INFO:root:------ Running app ------
+INFO:root:Succesfully read ../data/accepted_2007_to_2018Q4.csv
+INFO:root:Dimension of raw data is 2260701 x 151
+INFO:root:--> Preprocessing Data
+INFO:root:------ Running app ------
+INFO:root:Succesfully read ../data/accepted_2007_to_2018Q4.csv
+INFO:root:Dimension of raw data is 2260701 x 151
+INFO:root:--> Preprocessing Data
+INFO:root:Dimension of reduced data is 1345310 x 36
+INFO:root:Classification: Fully Paid has 1076751 rows
+INFO:root:Classification: Charged Off has 268559 rows
+INFO:root:Categorical column: home_ownership
+INFO:root:------ Running app ------
+INFO:root:Succesfully read ../data/accepted_2007_to_2018Q4.csv
+INFO:root:Dimension of raw data is 2260701 x 151
+INFO:root:--> Preprocessing Data
+INFO:root:Dimension of reduced data is 1345310 x 36
+INFO:root:Classification: Fully Paid has 1076751 rows
+INFO:root:Classification: Charged Off has 268559 rows
+INFO:root:Categorical column: home_ownership
+INFO:root:Categorical column: verification_status
+INFO:root:Categorical column: purpose
+INFO:root:Categorical column: addr_state
+INFO:root:Ordered column: sub_grade
+INFO:root:------ Running app ------
+INFO:root:Succesfully read ../data/accepted_2007_to_2018Q4.csv
+INFO:root:Dimension of raw data is 2260701 x 151
+INFO:root:--> Preprocessing Data
+INFO:root:Dimension of reduced data is 1345310 x 36
+INFO:root:Classification: Fully Paid has 1076751 rows
+INFO:root:Classification: Charged Off has 268559 rows
+INFO:root:Categorical column: home_ownership
+INFO:root:Categorical column: verification_status
+INFO:root:Categorical column: purpose
+INFO:root:Categorical column: addr_state
+INFO:root:Ordered column: sub_grade
+INFO:root:Ordered column: loan_status
+INFO:root:Replacing < 1 with 0 in emp_length
+INFO:root:Replacing 10+ with 10 in emp_length
+INFO:root:Minimum emp_length = 0.0  years
+INFO:root:Maximum emp_length = 10.0  years
+INFO:root:------ Running app ------
+INFO:root:Succesfully read ../data/accepted_2007_to_2018Q4.csv
+INFO:root:Dimension of raw data is 2260701 x 151
+INFO:root:--> Preprocessing Data
+INFO:root:Dimension of reduced data is 1345310 x 36
+INFO:root:Classification: Fully Paid has 1076751 rows
+INFO:root:Classification: Charged Off has 268559 rows
+INFO:root:Categorical column: home_ownership
+INFO:root:Categorical column: verification_status
+INFO:root:Categorical column: purpose
+INFO:root:Categorical column: addr_state
+INFO:root:Ordered column: sub_grade
+INFO:root:Ordered column: loan_status
+INFO:root:Replacing < 1 with 0 in emp_length
+INFO:root:Replacing 10+ with 10 in emp_length
+INFO:root:Minimum emp_length = 0.0  years
+INFO:root:Maximum emp_length = 10.0  years
+INFO:root:------ Running app ------
+INFO:root:Succesfully read ../data/accepted_2007_to_2018Q4.csv
+INFO:root:Dimension of raw data is 2260701 x 151
+INFO:root:--> Preprocessing Data
+INFO:root:Dimension of reduced data is 1345310 x 36
+INFO:root:Classification: Fully Paid has 1076751 rows
+INFO:root:Classification: Charged Off has 268559 rows
+INFO:root:Categorical column: home_ownership
+INFO:root:Categorical column: verification_status
+INFO:root:Categorical column: purpose
+INFO:root:Categorical column: addr_state
+INFO:root:Ordered column: sub_grade
+INFO:root:Ordered column: loan_status
+INFO:root:Replacing < 1 with 0 in emp_length
+INFO:root:Replacing 10+ with 10 in emp_length
+INFO:root:Minimum emp_length = 0.0  years
+INFO:root:Maximum emp_length = 10.0  years
+INFO:root:Imputing emp_length with 6.00
+INFO:root:Imputing dti with 17.61
+INFO:root:Imputing inq_last_6mths with 0.00
+INFO:root:Imputing mths_since_last_delinq with 31.00
+INFO:root:Imputing mths_since_last_record with 72.00
+INFO:root:Imputing revol_util with 52.20
+INFO:root:Imputing collections_12_mths_ex_med with 0.00
+INFO:root:Imputing mths_since_last_major_derog with 44.00
+INFO:root:Imputing annual_inc_joint with 106300.00
+INFO:root:Imputing dti_joint with 18.46
+INFO:root:Imputing tot_coll_amt with 0.00
+INFO:root:Imputing tot_cur_bal with 80231.00
+INFO:root:Imputing open_acc_6m with 1.00
+INFO:root:Imputing open_act_il with 2.00
+INFO:root:Imputing open_il_12m with 1.00
+INFO:root:Imputing open_il_24m with 1.00
+INFO:root:------ Running app ------
+INFO:root:Succesfully read ../data/accepted_2007_to_2018Q4.csv
+INFO:root:Dimension of raw data is 2260701 x 151
+INFO:root:--> Preprocessing Data
+INFO:root:Dimension of reduced data is 1345310 x 36
+INFO:root:Classification: Fully Paid has 1076751 rows
+INFO:root:Classification: Charged Off has 268559 rows
+INFO:root:Categorical column: home_ownership
+INFO:root:Categorical column: verification_status
+INFO:root:Categorical column: purpose
+INFO:root:Categorical column: addr_state
+INFO:root:Ordered column: sub_grade
+INFO:root:Ordered column: loan_status
+INFO:root:Replacing < 1 with 0 in emp_length
+INFO:root:Replacing 10+ with 10 in emp_length
+INFO:root:Minimum emp_length = 0.0  years
+INFO:root:Maximum emp_length = 10.0  years
+INFO:root:Imputing emp_length with 6.00
+INFO:root:Imputing dti with 17.61
+INFO:root:Imputing inq_last_6mths with 0.00
+INFO:root:Imputing mths_since_last_delinq with 31.00
+INFO:root:Imputing mths_since_last_record with 72.00
+INFO:root:Imputing revol_util with 52.20
+INFO:root:Imputing collections_12_mths_ex_med with 0.00
+INFO:root:Imputing mths_since_last_major_derog with 44.00
+INFO:root:Imputing annual_inc_joint with 106300.00
+INFO:root:Imputing dti_joint with 18.46
+INFO:root:Imputing tot_coll_amt with 0.00
+INFO:root:Imputing tot_cur_bal with 80231.00
+INFO:root:Imputing open_acc_6m with 1.00
+INFO:root:Imputing open_act_il with 2.00
+INFO:root:Imputing open_il_12m with 1.00
+INFO:root:Imputing open_il_24m with 1.00
+INFO:root:number of classes: 2
+INFO:root:Before upsampling: 1345310 rows
+INFO:root:------ Running app ------
+INFO:root:Succesfully read ../data/accepted_2007_to_2018Q4.csv
+INFO:root:Dimension of raw data is 2260701 x 151
+INFO:root:--> Preprocessing Data
+INFO:root:Dimension of reduced data is 1345310 x 36
+INFO:root:Classification: Fully Paid has 1076751 rows
+INFO:root:Classification: Charged Off has 268559 rows
+INFO:root:Categorical column: home_ownership
+INFO:root:Categorical column: verification_status
+INFO:root:Categorical column: purpose
+INFO:root:Categorical column: addr_state
+INFO:root:Ordered column: sub_grade
+INFO:root:Ordered column: loan_status
+INFO:root:Replacing < 1 with 0 in emp_length
+INFO:root:Replacing 10+ with 10 in emp_length
+INFO:root:Minimum emp_length = 0.0  years
+INFO:root:Maximum emp_length = 10.0  years
+INFO:root:Imputing emp_length with 6.00
+INFO:root:Imputing dti with 17.61
+INFO:root:Imputing inq_last_6mths with 0.00
+INFO:root:Imputing mths_since_last_delinq with 31.00
+INFO:root:Imputing mths_since_last_record with 72.00
+INFO:root:Imputing revol_util with 52.20
+INFO:root:Imputing collections_12_mths_ex_med with 0.00
+INFO:root:Imputing mths_since_last_major_derog with 44.00
+INFO:root:Imputing annual_inc_joint with 106300.00
+INFO:root:Imputing dti_joint with 18.46
+INFO:root:Imputing tot_coll_amt with 0.00
+INFO:root:Imputing tot_cur_bal with 80231.00
+INFO:root:Imputing open_acc_6m with 1.00
+INFO:root:Imputing open_act_il with 2.00
+INFO:root:Imputing open_il_12m with 1.00
+INFO:root:Imputing open_il_24m with 1.00
+INFO:root:number of classes: 2
+INFO:root:Before upsampling: 1345310 rows
+INFO:root:After upsampling: 2153502 rows
+INFO:root:------ Running app ------
+INFO:root:------ Running app ------
+INFO:root:Succesfully read ../data/accepted_2007_to_2018Q4.csv
+INFO:root:Dimension of raw data is 2260701 x 151
+INFO:root:--> Preprocessing Data
+INFO:root:Dimension of reduced data is 1345310 x 36
+INFO:root:Classification: Fully Paid has 1076751 rows
+INFO:root:Classification: Charged Off has 268559 rows
+INFO:root:Categorical column: home_ownership
+INFO:root:Categorical column: verification_status
+INFO:root:Categorical column: purpose
+INFO:root:Categorical column: addr_state
+INFO:root:Ordered column: sub_grade
+INFO:root:Ordered column: loan_status
+INFO:root:Replacing < 1 with 0 in emp_length
+INFO:root:Replacing 10+ with 10 in emp_length
+INFO:root:Minimum emp_length = 0.0  years
+INFO:root:Maximum emp_length = 10.0  years
+INFO:root:Imputing emp_length with 6.00
+INFO:root:Imputing dti with 17.61
+INFO:root:Imputing inq_last_6mths with 0.00
+INFO:root:Imputing mths_since_last_delinq with 31.00
+INFO:root:Imputing mths_since_last_record with 72.00
+INFO:root:Imputing revol_util with 52.20
+INFO:root:Imputing collections_12_mths_ex_med with 0.00
+INFO:root:Imputing mths_since_last_major_derog with 44.00
+INFO:root:Imputing annual_inc_joint with 106300.00
+INFO:root:Imputing dti_joint with 18.46
+INFO:root:Imputing tot_coll_amt with 0.00
+INFO:root:Imputing tot_cur_bal with 80231.00
+INFO:root:Imputing open_acc_6m with 1.00
+INFO:root:Imputing open_act_il with 2.00
+INFO:root:Imputing open_il_12m with 1.00
+INFO:root:Imputing open_il_24m with 1.00
+INFO:root:number of classes: 2
+INFO:root:Before upsampling: 1345310 rows
+INFO:root:After upsampling: 2153502 rows
+INFO:root:Splitting into train and test with test size = 0.20
+INFO:root:Scaling numerical columns ...
+INFO:root:------ Running app ------
+INFO:root:Succesfully read ../data/accepted_2007_to_2018Q4.csv
+INFO:root:Dimension of raw data is 2260701 x 151
+INFO:root:--> Preprocessing Data
+INFO:root:Dimension of reduced data is 1345310 x 36
+INFO:root:Classification: Fully Paid has 1076751 rows
+INFO:root:Classification: Charged Off has 268559 rows
+INFO:root:Categorical column: home_ownership
+INFO:root:Categorical column: verification_status
+INFO:root:Categorical column: purpose
+INFO:root:Categorical column: addr_state
+INFO:root:Ordered column: sub_grade
+INFO:root:Ordered column: loan_status
+INFO:root:Replacing < 1 with 0 in emp_length
+INFO:root:Replacing 10+ with 10 in emp_length
+INFO:root:Minimum emp_length = 0.0  years
+INFO:root:Maximum emp_length = 10.0  years
+INFO:root:Imputing emp_length with 6.00
+INFO:root:Imputing dti with 17.61
+INFO:root:Imputing inq_last_6mths with 0.00
+INFO:root:Imputing mths_since_last_delinq with 31.00
+INFO:root:Imputing mths_since_last_record with 72.00
+INFO:root:Imputing revol_util with 52.20
+INFO:root:Imputing collections_12_mths_ex_med with 0.00
+INFO:root:Imputing mths_since_last_major_derog with 44.00
+INFO:root:Imputing annual_inc_joint with 106300.00
+INFO:root:Imputing dti_joint with 18.46
+INFO:root:Imputing tot_coll_amt with 0.00
+INFO:root:Imputing tot_cur_bal with 80231.00
+INFO:root:Imputing open_acc_6m with 1.00
+INFO:root:Imputing open_act_il with 2.00
+INFO:root:Imputing open_il_12m with 1.00
+INFO:root:Imputing open_il_24m with 1.00
+INFO:root:number of classes: 2
+INFO:root:Before upsampling: 1345310 rows
+INFO:root:After upsampling: 2153502 rows
+INFO:root:Splitting into train and test with test size = 0.20
+INFO:root:Scaling numerical columns ...
+INFO:root:Accuracy of LGBM is 0.877
