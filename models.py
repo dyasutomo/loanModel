@@ -4,13 +4,13 @@ logger = logging.getLogger(__name__)
 from sklearn.ensemble import VotingClassifier, BaggingClassifier
 from sklearn.linear_model import LogisticRegression, RidgeClassifier
 
-#from lazypredict.Supervised import LazyClassifier
-#from keras.models import Sequential, load_model
-#from keras.layers import Dense, Dropout
-#from keras.callbacks import EarlyStopping
+from lazypredict.Supervised import LazyClassifier
+from keras.models import Sequential, load_model
+from keras.layers import Dense, Dropout
+from keras.callbacks import EarlyStopping
 
 import lightgbm as lgb
-#from xgboost import XGBClassifier
+from xgboost import XGBClassifier
 from joblib import dump, load
 
 class Models:
